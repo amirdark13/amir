@@ -1,0 +1,2 @@
+# amir
+pkg install php
